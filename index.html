@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semântica</title>
+</head>
+<body>
+    <!-- Cabeçalho da pagina -->
+    <header>
+        <!-- é uma tag para menu de navegação-->
+        <nav>
+            <!-- a ul é um container de lista nao ordenada-->
+            <ul>
+                <!-- tag a - link-->
+                <li> <a href="https://www.tripadvisor.com.br/Hotels-g1056623-Arraial_do_Cabo_State_of_Rio_de_Janeiro-Hotels.html" target="_blank"> Faça sua reserva</a></li>
+                <li> <a href="">Redes sociais</a></li>
+                <li> <a href="">saiba mais</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <!-- Contéudo principal do site -->
+    <main>
+        <section> 
+        <h1> Viagens Vai na Web</h1>
+        <!-- é usada para incorporar outro documento HTML dentro do seu documento HTML-->
+        <iframe width="360" height="215" src="https://www.youtube.com/embed/kptLihxtrhU?si=EVumBCmOQXMyU_5l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <!-- Sessão de tipos de viagens -->
+        <section>
+            <!-- a tag div deve ser usada com sabedoria, ela é usada para divisôes pois não tem valor semântico -->
+             <div>
+                <h2>Viagens internacionais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quaerat iusto modi ipsam est iure. Unde corrupti consequuntur corporis exercitationem? Nemo voluptatem accusamus dignissimos quia, distinctio officiis quaerat necessitatibus similique.</p>
+             </div>
+             <div>
+                <h2>Viagens nacionais</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur accusamus quod quas amet illo quis, porro dignissimos. Error temporibus soluta sequi laudantium! Incidunt esse reiciendis aspernatur quod sed odio pariatur!</p>
+             </div>
+        </section>
+        <!-- sessão do formulário-->
+         <section>
+            <h2>Se increva para receber novidades</h2>
+            <!-- fieldset é tag usada para agrupar um form aplicando um estilo -->
+            <fieldset>
+             <legend>
+                Formulário de cadastro
+             </legend>
+             <!-- form é uma tag de formulário -->
+             <form action="">
+                
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+                <label for="email">e-mail:</label>
+                <input type="email" id="email" required>
+                <input type="submit" >
+             </form>
+            </fieldset>
+         </section>
+    </main> 
+    <!-- footer será a parte final "rodapé do site" -->
+     <footer></footer>
+</body>
+</html>
